@@ -1,0 +1,114 @@
+/* Estilos para telas maiores ou iguais a 600px de largura */
+body { 
+    background-image: url(./imagens/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+    border-radius: 25px;
+}
+
+h1, h2 {
+    color: black;
+    padding: 25px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    transition: opacity 0.5s ease;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Aumentando o espaço entre os botões */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: rgba(211, 211, 211, 0.774);
+    border-color: #00ffa2; /* Mudando a cor da borda para neon quando hover */
+    transition: 0.5s ease;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.selected-option {
+    background-color: gray;
+    transition: background-color 0.3s ease;
+}
+
+#info {
+    display: none;
+    position: absolute;
+    text-align: center;
+    margin-top: 110px; /* Ajuste a margem superior conforme necessário */
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid;
+    border-color: darkblue;
+    border-radius: 30px;
+    transition: opacity 0.5s ease;
+    font-size: large;
+}
+
+/*animação slide in*/
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.7s ease forwards;
+}
+
+
+/* Estilos para telas menores que 600px de largura */
+@media screen and (max-width: 600px) {
+
+    header {
+        font-size: medium;
+    }
+
+    .container {
+        max-width: 90%; /* Ajuste a largura conforme necessário para caber em telas menores */
+        margin: 20px auto;
+    }
+
+    button {
+        font-size: 16px; /* Reduz a fonte dos botões em telas menores */
+        padding: 16px;
+    }
+
+    #info {
+        font-size: medium; /* Ajusta o tamanho da fonte do elemento de informação em telas menores */
+        margin-top: 80px; /* Ajusta a margem superior do elemento de informação em telas menores */
+        
+    }
+}

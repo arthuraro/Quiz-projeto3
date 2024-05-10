@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: azure;">✨ QUIZ ✨</h1>
+    </header>
+
+    <!-- Tela de boas-vindas -->
+    <div id="welcomeScreen" class="container" style="text-align: center;">
+       <h2 style="margin-bottom: 20px; font-size: xx-large;">Bem-vindo ao Quiz sobre o universo de Zelda!</h2>
+       <img src="https://pa1.aminoapps.com/6033/2b99e9e1f459a950a1ded72369fb0d7efe930895_hq.gif" alt="GIF de boas-vindas" style="width: 200px; height: auto; margin-bottom: 20px;">
+
+       <div style="display: flex; justify-content: center; padding: 20px;">
+           <button onclick="hideWelcomeScreen()">Iniciar</button>
+       </div>
+    </div>
+
+    <!-- Container das escolhas de dificuldades -->
+    <div id="difficultySelection" class="container" style="display: none;">
+        <h1>Escolha a dificuldade:</h1>
+        <button onclick="startQuiz('easy')">Fácil</button>
+        <button onclick="startQuiz('medium')">Médio</button>
+        <button onclick="startQuiz('hard')">Difícil</button>
+        <button onclick="startQuiz('expert')">Muito Difícil</button>
+    </div>
+
+    <div id="quiz" class="container" style="display: none; font-size: medium;">
+        <h2 id="question" style="font-size: x-large;"></h2>
+        <div id="options" class="btn-group">
+            <!-- Options will be inserted here -->
+        </div>
+        <div id="info" style="display: none;"></div>
+        <button id="nextButton" style="display: none; margin-top: 20px;">Próxima Pergunta</button>
+        <button id="concludeButton" style="display: none; margin-top: 20px;" onclick="concludeQuiz()">Concluir</button>
+    </div>
+
+    <div id="conclusionMessage" class="container" style="display: none; text-align: center; font-size: medium;">
+        <h2 id="conclusionText"></h2>
+        <img id="conclusionImage" src="" alt="Mensagem">
+        <div style="display: flex; justify-content: center; ">
+            <button onclick="backToDifficultySelection()">Voltar</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
