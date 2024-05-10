@@ -36,17 +36,22 @@
             <!-- Options will be inserted here -->
         </div>
         <div id="info" style="display: none;"></div>
-        <button id="nextButton" style="display: none; margin-top: 20px;">Próxima Pergunta</button>
-        <button id="concludeButton" style="display: none; margin-top: 20px;" onclick="concludeQuiz()">Concluir</button>
+        <button id="nextButton" style="display: none; margin-top: 20px;"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+        <button id="concludeButton" style="display: none; margin-top: 20px;" onclick="concludeQuiz()"><ion-icon name="checkmark-outline"></ion-icon></button>
     </div>
 
     <div id="conclusionMessage" class="container" style="display: none; text-align: center; font-size: medium;">
         <h2 id="conclusionText"></h2>
         <img id="conclusionImage" src="" alt="Mensagem">
         <div style="display: flex; justify-content: center; ">
-            <button onclick="backToDifficultySelection()">Voltar</button>
+            <button onclick="backToDifficultySelection()"><ion-icon name="arrow-back-outline"></ion-icon>
+            </ion-icon>
+            </button>
         </div>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
 
     <script src="script.js"></script>

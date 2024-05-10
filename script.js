@@ -6,7 +6,6 @@ const questions = {
             answer: 0,
             summary: "Link é o protagonista principal da série Zelda, conhecido por sua coragem e determinação." ,
             incorrectSummary: "Resposta incorreta. O protagonista de The Legend of Zelda na verdade é conhecido como Link"
-            
         },
     ],
 
