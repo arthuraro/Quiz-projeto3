@@ -192,8 +192,8 @@ function concludeQuiz() {
     const correctAnswers = countCorrectAnswers();
 
     
-        document.getElementById("conclusionText").innerText = "✨Parabéns! Você concluiu esta dificuldade do quiz com sucesso! Sua dedicação e conhecimento sobre o universo de Zelda são impressionantes. Continue explorando e se aprofundando nesse incrível mundo de aventuras e mistérios. Lembre-se sempre que o verdadeiro herói está dentro de você. Que suas futuras jornadas sejam repletas de desafios e triunfos. Até a próxima aventura, herói de Hyrule!✨";
-        
+        document.getElementById("conclusionText").innerText = "✨Parabéns! Você concluiu esta dificuldade do quiz com sucesso! Sua dedicação e conhecimento sobre o universo de Zelda são impressionantes. Continue explorando e se aprofundando nesse incrível mundo de aventuras e mistérios. Lembre-se sempre que o verdadeiro herói está dentro de você. Que suas futuras jornadas sejam repletas de desafios e triunfos. Até a próxima aventura, herói de Hyrule!✨"
+
         // Substitua "caminho/para/imagem_de_parabens.gif" pelo caminho do seu GIF animado
     document.getElementById("conclusionImage").src= "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjFrZGZ6d2VrYndnaXM5a2NpNjc1Z2UzZW1jMW5xNW9rOXpmNHQ5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BHCFcibksBxAV0FDoL/giphy.gif";
 } 
