@@ -7,6 +7,14 @@ const questions = {
             summary: "Link é o protagonista principal da série Zelda, conhecido por sua coragem e determinação." ,
             incorrectSummary: "Resposta incorreta. O protagonista de The Legend of Zelda na verdade é conhecido como Link"
         },
+
+        {
+            question:"",
+            options:[],
+            answer:0,
+            summary: "",
+            incorrectSummary: ""
+        },
     ],
 
     medium: [
@@ -192,8 +200,7 @@ function concludeQuiz() {
     const correctAnswers = countCorrectAnswers();
 
     
-        document.getElementById("conclusionText").innerText = "✨Parabéns! Você concluiu esta dificuldade do quiz com sucesso! Sua dedicação e conhecimento sobre o universo de Zelda são impressionantes. Continue explorando e se aprofundando nesse incrível mundo de aventuras e mistérios. Lembre-se sempre que o verdadeiro herói está dentro de você. Que suas futuras jornadas sejam repletas de desafios e triunfos. Até a próxima aventura, herói de Hyrule!✨"
-
+        document.getElementById("conclusionText").innerText = "Parabéns, você concluiu esta dificuldade do Quiz sobre o universo de zelda, se você foi bem no Quiz, Parabéns, você coonhece bem o grande e incrivel universo de Zelda, agora, se você não foi bem fique tranquilo, o intuito desse Quiz é a diversão e o objetivo é você conhecer o universo dos jogos da franquia. Agora, você voltará para o inicio para fazer as outras dificuldades. Boa sorte!"
         // Substitua "caminho/para/imagem_de_parabens.gif" pelo caminho do seu GIF animado
     document.getElementById("conclusionImage").src= "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjFrZGZ6d2VrYndnaXM5a2NpNjc1Z2UzZW1jMW5xNW9rOXpmNHQ5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BHCFcibksBxAV0FDoL/giphy.gif";
 } 
