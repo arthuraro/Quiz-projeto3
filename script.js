@@ -1,19 +1,21 @@
 const questions = {
     easy: [
-        { 
-            question: "Qual é o nome do protagonista principal?", 
-            options: ["A) Link", "B) Zelda", "C) Ganondorf", "D) Sheik", "E) Midna"], 
+
+        {
+            question: "Qual é o nome do protagonista principal na maioria dos jogos da série Zelda?",
+            options: ["A) Link", "B) Zelda", "C) Ganondorf", "D) Navi", "E) Impa"],
             answer: 0,
-            summary: "Link é o protagonista principal da série Zelda, conhecido por sua coragem e determinação." ,
-            incorrectSummary: "Resposta incorreta. O protagonista de The Legend of Zelda na verdade é conhecido como Link"
+            summary: "Link é o herói principal da série Zelda, frequentemente encarregado de salvar a Princesa Zelda e o reino de Hyrule.",
+            incorrectSummary: "Zelda é a princesa que precisa ser resgatada; Ganondorf é frequentemente o vilão; Navi é uma fada que auxilia Link; e Impa é uma guardiã de Zelda."
         },
 
         {
-            question:"",
-            options:[],
-            answer:0,
-            summary: "",
-            incorrectSummary: ""
+            question: "Qual é a princesa que frequentemente precisa ser resgatada ao longo dos jogos?",
+            options: ["A) impa", "B) Link", "C) Ganondorf", "D) Zelda", "E) Ruto"],
+            answer: 3,
+            summary: "A Princesa Zelda é frequentemente a personagem que precisa ser resgatada e desempenha um papel central na maioria dos jogos da série.",
+            incorrectSummary: "Link é o herói da série; Ganondorf é o antagonista; Impa é uma guardiã; e Ruto é uma princesa Zora."
+
         },
     ],
 
