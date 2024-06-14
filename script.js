@@ -1,22 +1,76 @@
 const questions = {
     easy: [
-
         {
-            question: "Qual é o nome do protagonista principal na maioria dos jogos da série Zelda?",
-            options: ["A) Link", "B) Zelda", "C) Ganondorf", "D) Navi", "E) Impa"],
-            answer: 0,
-            summary: "Link é o herói principal da série Zelda, frequentemente encarregado de salvar a Princesa Zelda e o reino de Hyrule.",
-            incorrectSummary: "Zelda é a princesa que precisa ser resgatada; Ganondorf é frequentemente o vilão; Navi é uma fada que auxilia Link; e Impa é uma guardiã de Zelda."
+            "question": "Qual é o nome do protagonista principal na maioria dos jogos da série Zelda?",
+            "options": ["A) Link", "B) Zelda", "C) Ganondorf", "D) Navi", "E) Impa"],
+            "answer": 0,
+            "summary": "Link é o protagonista principal da série Zelda, conhecido por sua coragem e determinação.",
+            "incorrectSummary": "Resposta incorreta. O protagonista de The Legend of Zelda na verdade é conhecido como Link."
+        },
+        {
+            "question": "Qual é a princesa que frequentemente precisa ser resgatada ao longo dos jogos?",
+            "options": ["A) Zelda", "B) Link", "C) Ganondorf", "D) Impa", "E) Ruto"],
+            "answer": 0,
+            "summary": "Zelda é a princesa frequentemente resgatada nos jogos da série.",
+            "incorrectSummary": "Resposta incorreta. A princesa frequentemente resgatada na série é Zelda."
+        },
+        {
+            "question": "Qual é o artefato místico muitas vezes central à trama dos jogos Zelda?",
+            "options": ["A) A Espada Mestra", "B) O Cálice Sagrado", "C) O Bastão de Fogo", "D) O Escudo Sagrado", "E) O Anel do Poder"],
+            "answer": 0,
+            "summary": "A Espada Mestra é um artefato central na trama de muitos jogos da série Zelda.",
+            "incorrectSummary": "Resposta incorreta. O artefato central à trama de muitos jogos da série Zelda é a Espada Mestra."
+        },
+        {
+            "question": "Qual é a criatura recorrente na série Zelda que ajuda Link em suas jornadas?",
+            "options": ["A) Navi", "B) Epona", "C) Tatl", "D) Midna", "E) Fi"],
+            "answer": 0,
+            "summary": "Navi é uma criatura recorrente que ajuda Link em suas jornadas.",
+            "incorrectSummary": "Resposta incorreta. Navi é a criatura que frequentemente ajuda Link em suas jornadas."
+        },
+        {
+            "question": "Qual é o vilão principal em muitos dos jogos da série Zelda?",
+            "options": ["A) Ganondorf", "B) Link", "C) Zelda", "D) Ghirahim", "E) Vaati"],
+            "answer": 0,
+            "summary": "Ganondorf é o principal vilão em muitos jogos da série Zelda.",
+            "incorrectSummary": "Resposta incorreta. O principal vilão em muitos jogos da série Zelda é Ganondorf."
+        },
+        {
+            "question": "Qual é a princesa do povo Zora em alguns jogos da série Zelda?",
+            "options": ["A) Ruto", "B) Zelda", "C) Impa", "D) Nabooru", "E) Marin"],
+            "answer": 0,
+            "summary": "Ruto é a princesa do povo Zora em alguns jogos da série Zelda.",
+            "incorrectSummary": "Resposta incorreta. A princesa do povo Zora em alguns jogos da série Zelda é Ruto."
+        },
+        {
+            "question": "Qual é o nome do reino em que a maioria dos jogos da série Zelda se passa?",
+            "options": ["A) Hyrule", "B) Lorule", "C) Termina", "D) Labrynna", "E) Holodrum"],
+            "answer": 0,
+            "summary": "Hyrule é o reino onde a maioria dos jogos da série Zelda se passa.",
+            "incorrectSummary": "Resposta incorreta. O reino onde a maioria dos jogos da série Zelda se passa é Hyrule."
+        },
+        {
+            "question": "Qual é o instrumento musical muitas vezes importante para a progressão do jogo?",
+            "options": ["A) A Ocarina do Tempo", "B) A Harpa da Deusa", "C) O Flauta do Vento", "D) O Tambor dos Anciões", "E) A Lira de Orpheus"],
+            "answer": 0,
+            "summary": "A Ocarina do Tempo é um instrumento musical importante na série Zelda.",
+            "incorrectSummary": "Resposta incorreta. O instrumento musical importante na série Zelda é a Ocarina do Tempo."
+        },
+        {
+            "question": "Qual é o nome do protagonista em 'The Legend of Zelda: Breath of the Wild'?",
+            "options": ["A) Link", "B) Zelda", "C) Ganondorf", "D) Urbosa", "E) Mipha"],
+            "answer": 0,
+            "summary": "Link é o protagonista em 'The Legend of Zelda: Breath of the Wild'.",
+            "incorrectSummary": "Resposta incorreta. O protagonista de 'The Legend of Zelda: Breath of the Wild' é Link."
+        },
+        {
+            "question": "Qual é o papel de Ganondorf na série Zelda?",
+            "options": ["A) Principal vilão", "B) Protagonista", "C) Mestre sábio", "D) Companheiro de Link", "E) Guardião da paz"],
+            "answer": 0,
+            "summary": "Ganondorf é o principal vilão na série Zelda.",
+            "incorrectSummary": "Resposta incorreta. O papel de Ganondorf na série Zelda é o de principal vilão."
         },
 
-        {
-            question: "Qual é a princesa que frequentemente precisa ser resgatada ao longo dos jogos?",
-            options: ["A) impa", "B) Link", "C) Ganondorf", "D) Zelda", "E) Ruto"],
-            answer: 3,
-            summary: "A Princesa Zelda é frequentemente a personagem que precisa ser resgatada e desempenha um papel central na maioria dos jogos da série.",
-            incorrectSummary: "Link é o herói da série; Ganondorf é o antagonista; Impa é uma guardiã; e Ruto é uma princesa Zora."
-
-        },
     ],
 
     medium: [
